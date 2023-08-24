@@ -9,10 +9,10 @@ int main()
             printf("NULL\n");
         }
        else if(a<=0 && a%2==0){
-            printf("EVEN NAGETIVE\n");
+            printf("EVEN NEGATIVE\n");
         }
         else if(a<=0 && a%2==-1){
-            printf("odd NAGETIVE\n");
+            printf("ODD NEGATIVE\n");
         }
         else if(a>=0 && a%2==0){
             printf("EVEN POSITIVE\n");
