@@ -6,7 +6,10 @@ int main(){
  while(1){
 
     scanf("%d%d",&s,&e);
-    if(s==0 || e==0){
+    if(s==0){
+        break;
+    }
+    if(e==0){
         break;
     }
     if(s>e){
@@ -19,7 +22,7 @@ int main(){
         printf("%d ",i);
         sum+=i;
     }
-    printf("sum=%d\n",sum);
+    printf("Sum=%d\n",sum);
 
 
 
