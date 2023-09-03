@@ -1,20 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int n,a,b,i,j,k,l,m=1;
-    scanf("%d %d",&a,&n);
-    k=n/a;
-    l=a;
-    for(i=1;i<=k;i++)
+    int x,y,i,j;
+    scanf("%d %d",&x,&y);
+    for(i=1;i<=y;i++)
 	{
-		printf("%d",m);
-		for(j=m+1;j<=l;j++)
-		{
-			printf(" %d",j);
-		}
-		printf("\n");
-		m=m+a;
-		l=l+a;
+
+	    for(j=0;j<x;j++){
+         printf("%d",i);
+         printf('\n');
+	    }
+
 	}
 
     return 0;
