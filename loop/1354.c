@@ -24,7 +24,7 @@ void main()
         arr2[i] = arr1[i];
     }
 
-    /* Prints the elements of first array   */
+    /*kl Prints the elements of first array   */
     printf("\nThe elements stored in the first array are :\n");
     for(i=0; i<n; i++)
     {
@@ -38,4 +38,9 @@ void main()
         printf("% 5d", arr2[i]);
     }
 	       printf("\n\n");
+           for(i=0; i<n; i++)
+    {
+        printf("% 5d", arr2[i]);
+    }
+           
 }
